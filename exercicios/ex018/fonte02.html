@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'kgdown' ;
+            src: url(./fonts/KGDownBadCryingAtTheGym.otf) format('opentype'), url(./fonts/KGDownBadCryingAtTheGym.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Kgdown', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda dicta dolore possimus numquam, sequi, inventore nulla magni iusto harum dolores, quos quam temporibus nihil? Sed laboriosam ipsum eaque debitis?</p>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur repellat voluptas eveniet quis a laudantium aspernatur numquam! Labore, unde doloribus, enim consequuntur repellendus natus dignissimos, dicta itaque cumque quasi atque.</p>
+</body>
+</html>
